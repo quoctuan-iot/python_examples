@@ -32,6 +32,7 @@ Global variables can be used by everyone, both inside of functions and outside
 - Split string -> list: split(',')
 - Replace string
 ### Concatenate
+- Use the + operator
 
 ### Format string
 Ex: temp = "{2} - {1} = {0}".format(5,2,5-2)
