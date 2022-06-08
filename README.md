@@ -1,4 +1,4 @@
-# Python documents
+# Documents
 
 # 1. Variable
 Variable are containers for storing data values.
@@ -36,5 +36,19 @@ Global variables can be used by everyone, both inside of functions and outside
 
 ### Format string
 Ex: temp = "{2} - {1} = {0}".format(5,2,5-2)
+
+# 4. List, tuple,set,dictionary
+##### List
+- Store multiple items in a single variable
+- Items are ordered.
+- Changeable.
+- Allow dupplicate values.
+
+##### Dictionary
+
+- List is a collection which is ordered and changeable. Allows duplicate members.
+- Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
+- Set is a collection which is unordered, unchangeable*, and unindexed. No duplicate members.
+- Dictionary is a collection which is ordered** and changeable. No duplicate members.
 
 
