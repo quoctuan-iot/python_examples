@@ -136,6 +136,12 @@ class Student(Person)
 ###### Add methods to the child: 
 - The name of methods in the child class have to differcent with the name of function in the parent class. If it is the same name,the parent method will be overridden
  
+ # 9. try...except
+ - Try: a block of code for errors
+ - except: handle the error
+ - else: Execute code when there is no error
+ - finally: regardless of the result of the try and except block
+ 
  # Module           
 ## 1. datetime
 - Output: date, month, year, hour, minute, second, microsecond
