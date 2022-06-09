@@ -37,7 +37,7 @@ Global variables can be used by everyone, both inside of functions and outside
 ### Format string
 Ex: temp = "{2} - {1} = {0}".format(5,2,5-2)
 
-# 4. List, tuple,set,dictionary
+# 4. List, tuple, set, dictionary
 ##### List
 - Store multiple items in a single variable
 - Items are ordered.
@@ -45,10 +45,96 @@ Ex: temp = "{2} - {1} = {0}".format(5,2,5-2)
 - Allow dupplicate values.
 
 ##### Dictionary
-
+- Access the items by key name
+- Get Items
+- Get keys
+- Get values
+- Update or add item into dictionary: update()
+- Remove: del, pop
+- Loop in dictionary: thisdict.items() -> keys, values
+- 
+##### Summary
 - List is a collection which is ordered and changeable. Allows duplicate members.
 - Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
 - Set is a collection which is unordered, unchangeable*, and unindexed. No duplicate members.
 - Dictionary is a collection which is ordered** and changeable. No duplicate members.
 
+# 5. Operators
+### Arithmetic 
+- (+,-,*,/)
+- %: Modulus
+- \*\*: Exponentiation
+- \\\\: Floor division
+
+### Assignment
+- (=, +=, -=, *=, /=, %=, //=, \*\*=, &=,|=, ^=, >>=, <<= ) 
+
+### Comparison
+- (==, !=, <, >, <=, >= )
+
+### Logical
+- and
+- or
+- not
+
+### Identity
+- is: Returns True if both variables are the same object
+- is not: Returns True if both variables are not the same object
+
+### Membership
+- in
+- not in
+
+### Bitwise
+- &: and
+- |: or
+- ^: XOR
+- ~: Not
+- <<: Zero fill left shift
+- \>\>: Signed right shift
+
+# 6. Functions
+- Creating function
+- Call function
+- Arguments
+- Arbitrary Arguments: (\*args): If do not know many arguments that will be passed into function, add *
+Function will receive a tuple of arguments
+- Arbitrary keyword arguments: (\*\*kwargs)
+- Default parameter value
+- Return values
+- Recursion: defined function can call itself.
+
+## 7. Lambda
+- Ex: x = lambda a,b : a\*b
+    print(x(5,6))
+- Function: 
+def myfunc(n)
+    return lambda a : a * n
+mydoubler =myfunc(2)
+print(mydoubler(11))
+
+# 8. Classes/Object
+- Object methods
+- The self parameter: 
+- delete object properties
+
+### Inheritance
+- Parent class: base class
+- Child class: 
+
+Ex: 
+class Person:
+    def __init__()
+    
+class Student(Person)
+
+###### super()
+- Use the super() function: will make the child class inherit all the methods and properties from its parent
+- Use the super() function: do not have to use the name of the parent element. It will automatically inherit the methods and properties for its parent
+
+###### Add properties to the child
+###### Add methods to the child: 
+- The name of methods in the child class have to differcent with the name of function in the parent class. If it is the same name,the parent method will be overridden
+ 
+ # Module           
 
