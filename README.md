@@ -52,7 +52,7 @@ Ex: temp = "{2} - {1} = {0}".format(5,2,5-2)
 - Update or add item into dictionary: update()
 - Remove: del, pop
 - Loop in dictionary: thisdict.items() -> keys, values
-- 
+
 ##### Summary
 - List is a collection which is ordered and changeable. Allows duplicate members.
 - Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
@@ -143,12 +143,56 @@ class Student(Person)
 Ex
 %B: month name, full version
 %H: Hour 00-23
+
 Refer: https://www.w3schools.com/python/python_datetime.asp
 
 ## 2. math
 - Python has a set of built-in math function: (min,max,abs,pow)
 - Beside, Python has also a built-in module called math
- Refer: https://www.w3schools.com/python/module_math.asp
+
+Refer: https://www.w3schools.com/python/module_math.asp
 
 ## 3. Pip
+- Pip is a package manager for python packages, or modules.
+
+#### Check if pip is installed 
+pip --version
+
+#### Find packages
+https://pypi.org/
+
+#### install a package
+pip install \<package name\>
+
+#### uninstall a package
+pip uninstall \<package name\>
+
+#### List packages
+list
+
+## 5. virtualenv
+#### Check virtualenv
+which virtualenv
+
+#### install 
+pip install virtualenv
+
+#### Create a virtual environment
+virtualenv <my_env_name>
+virtualenv -p "C:\Users\tuan.tran-quoc\AppData\Local\Programs\Python\Python39\python.exe" "env"
+
+#### Activate the virtual environment
+source \<my_env_name\>/script/activate
+
+#### Deactivate the virtual environment
+deactivate
+
+#### Getting a requirement library
+pip freeze > requirements.txt
+
+#### Install packages from requirements.txt file
+pip install -r requirements.txt
+
+
+
 
