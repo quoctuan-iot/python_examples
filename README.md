@@ -199,6 +199,15 @@ pip freeze > requirements.txt
 #### Install packages from requirements.txt file
 pip install -r requirements.txt
 
-
-
+## 6. os
+- Get current dir.
+- Rename file.
+- Remove file.
+- Create dir.
+- Check if it is file, dir.
+- Check if file or dir exists.
+- Create, Join path.
+- Get size, modified datetime file.
+- List dir or file 
+- 
 
