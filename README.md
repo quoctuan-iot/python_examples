@@ -104,7 +104,7 @@ Function will receive a tuple of arguments
 - Return values
 - Recursion: defined function can call itself.
 
-## 7. Lambda
+# 7. Lambda
 - Ex: x = lambda a,b : a\*b
     print(x(5,6))
 - Function: 
@@ -137,4 +137,18 @@ class Student(Person)
 - The name of methods in the child class have to differcent with the name of function in the parent class. If it is the same name,the parent method will be overridden
  
  # Module           
+## 1. datetime
+- Output: date, month, year, hour, minute, second, microsecond
+- Format string date output: strftime() method.
+Ex
+%B: month name, full version
+%H: Hour 00-23
+Refer: https://www.w3schools.com/python/python_datetime.asp
+
+## 2. math
+- Python has a set of built-in math function: (min,max,abs,pow)
+- Beside, Python has also a built-in module called math
+ Refer: https://www.w3schools.com/python/module_math.asp
+
+## 3. Pip
 
